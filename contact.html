@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
     <style>
       .buttons {
         --bs-blue: #0d6efd;
@@ -239,16 +242,18 @@
         <div class="navbar-nav">
           <ul>
             <li>
-              <a class="nav-item nav-link" href="about.html">About Mwa</a>
-            </li>
-            <li>
-              <a class="nav-item nav-link active" href="work.html"
-                >Work <span class="sr-only">(current)</span></a
+              <a class="nav-item nav-link active" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
               >
             </li>
+
             <li>
-              <a class="nav-item nav-link" href="about.html" id="information"
-                >Contact Me</a
+              <a class="nav-item nav-link" href="about.html">About Mwa</a>
+            </li>
+
+            <li>
+              <a class="nav-item nav-link" href="work.html" id="information"
+                >Work</a
               >
             </li>
           </ul>
@@ -257,74 +262,36 @@
     </nav>
     <br />
     <br />
-    <h2>🌺 Hi, I am</h2>
-    <h1>Masedi</h1>
-    <h3>🌊 Front-end developer, based in Johannesburg, South Africa</h3>
-    <div class="navigation-links">
-      <a href="about.html" class="contact-link">About Me</a>
-      <a href="work.html" class="about-link">My Work</a>
-      <a href="contact.html" class="contact-link">Contact me</a>
-    </div>
-    <br />
-    <br />
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <br />
-          <br />
-          <img
-            class="screenshot"
-            src="images/React Weather App Screenshot.png"
-            alt="Screenshot of React Weather App"
-            class="img-fluid width 100px"
-          />
-        </div>
-
-        <div class="col-md-6">
-          <h4>React Weather App</h4>
-          <p>
-            A Weather App built with React! Type in any capital city around the
-            world and get up-to-date weather information including windspeed,
-            humidity and a 5 day forecast!
-          </p>
-
-          <a
-            href="https://fanciful-sfogliatella-b50f70.netlify.app/"
-            target="_blank"
-          >
-            <button class="buttons">Launch React Weather App</button></a
-          >
-        </div>
-      </div>
+    <div id="about">
+      <h2>💬 CONTACT ME</h2>
       <br />
-      <div class="row">
-        <div class="col-md-6">
-          <h4>Java Weather App</h4>
-          <p>
-            This weather app was built using API documentation from
-            Openweather.org. It is up-to-date, has a 6 day forecast and pulls
-            weather information (including humidity and wind speed) for every
-            capital city around the world!
-          </p>
-          <a
-            href="https://admirable-faloodeh-bcf2d5.netlify.app/"
-            target="_blank"
-            ><button class="buttons">Launch Weather App</button></a
-          >
-        </div>
-
-        <div class="col-md-6">
-          <br />
-          <br />
-          <img
-            src="images/Java Weather App  Screenshot.png"
-            alt="A weather app screenshot"
-            class="img-fluid width 100px"
-          />
-        </div>
-      </div>
       <br />
+
+      <form class="form">
+        <label for="fname">First name:</label><br />
+        <input type="text" /><br />
+        <label for="lname">Email:</label><br />
+        <input type="text" /><br />
+        <label for="lname">Message:</label><br />
+        <input type="text" /> <br />
+        <br />
+        <input type="submit" value="Submit" class="contact-link" />
+      </form>
+      <br />
+      <br />
+
+      <a href="mailto:[email]" class="email-link" title="e-mail address">
+        masedi.ncamani@gmail.com
+      </a>
+      <a
+        href="https://www.linkedin.com/in/masedi-ncamani-a976881b1/"
+        class="email-link"
+        >Let's Connect on LinkedIn!</a
+      >
+
+      <a href="index.html" class="homepage-link" title="homepage"
+        >Back to homepage</a
+      >
     </div>
-    <hr />
   </body>
 </html>

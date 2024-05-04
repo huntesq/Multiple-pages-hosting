@@ -89,6 +89,14 @@ p {
   margin: 10px;
 }
 
+.form {
+  text-align: center;
+}
+
+.contact-container {
+  text-align: center;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
